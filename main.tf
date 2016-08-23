@@ -1,5 +1,5 @@
 variable "instance_type" {
-  default = "t2.large"
+  default = "t2.micro"
 }
 
 resource "aws_instance" "main" {
